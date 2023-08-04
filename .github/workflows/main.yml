@@ -81,11 +81,11 @@ jobs:
         name: my-build-package
     - run: mv *.whl titanic_model_api/
 
-    - name: Login to Docker hub
-      env:
-        DOCKER_USER: ${{ secrets.DOCKER_USER_NAME }}
-        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
-      run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
+    - name: Login to Docker Hub
+      uses: docker/login-action@v2
+      with:
+          username: ${{ secrets.DOCKER_USER_NAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build the Docker image for Fastapi app
       env:
