@@ -1,2 +1,3 @@
-# titanic_app
-This repository is for titanic application.
+# The Great Titanic App
+
+This repository consists of titanic model, it has also it's API.
