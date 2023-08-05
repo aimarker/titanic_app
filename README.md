@@ -1,6 +1,6 @@
 [![CI Workflow](https://github.com/aimarker/titanic_app/actions/workflows/CI.yml/badge.svg)](https://github.com/aimarker/titanic_app/actions/workflows/CI.yml/badge.svg) [![CD Workflow](https://github.com/aimarker/titanic_app/actions/workflows/CD.yml/badge.svg)](https://github.com/aimarker/titanic_app/actions/workflows/CD.yml/badge.svg)
 
-# The Great Titanic App
+# The Great Titanic App 🛳️
 
 Imagine, you or any of your relative were on the Titanic Ship. The project uses Random Forest Classifier model to predict if the passenger on-board on the Titanic ship will be saved or not.
 The repository also contains the Passenger data to train the model. The project is logically grouped in two broad categories:
@@ -12,6 +12,8 @@ Prediction API's are available as docker image. The docker image is currently ge
 Project Info
 ------------
 ![Implementation](https://img.shields.io/badge/Implementation-Python-blue)      ![Python](https://img.shields.io/badge/Python-3.7|3.8|3.9|3.10-blue)
+
+![ScikitLearn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) ![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white) ![FastAPI](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white)
 ------------
 
 Project Structure
